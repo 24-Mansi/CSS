@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>A</h1>
+    <div>
+        <h1>B</h1>
+    </div>
+    <h1>C</h1>
+    <h2>D</h2>
+    <section>
+        <h1>E</h1>
+    </section>
+    <h1>F</h1>
+</body>
+<style>
+    div~h1{
+        color: purple;
+    }
+</style>
+</html>
+
+<!-- div~h1 means editing will be apllied to the direct sibling of h1 only
+~ is also called combinator.......
+those sibling which comes after div will get edited.rather than before div -->

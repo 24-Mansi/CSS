@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Greater child</title>
+</head>
+<body>
+    <h1>1</h1>
+    <div>
+        <h1>2</h1>
+        <section>
+            <h1>3</h1>
+            <h2>4</h2>
+        </section>
+        <h1>5</h1>
+        <section>
+            <h3>6</h3>
+        </section>
+        <h2>7</h2>
+    </div>
+</body>
+<style>
+    div>h1{
+        color: green;
+    }
+</style>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>A</p>
+    <div>
+        <p>B</p>
+        <section>
+            <p>C</p>
+            <div>
+                <p>D</p>
+            </div>
+            <p>E</p>
+        </section>
+        <p>F</p>
+    </div>
+    <P>G</P>
+</body>
+<style>
+    div>p{
+        color: greenyellow;  
+    }
+    /* here editing is applied to child tags of  all div because no particular div is defined. */
+</style>
+</html>
+
+<!-- div>h1 means the editing will only be applied on direct child of div not on thr grand child and sub child -->

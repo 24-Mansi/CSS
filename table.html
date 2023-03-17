@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <title>Table</title>
+</head>
+<body>
+    <table>
+        <!-- <th>Days</th>
+    <tr>
+        <td>Monday</td>
+        <td>Tuesday</td>
+        <td>Wednesday</td>
+        <td>Thursday</td>
+        <td>Friday</td>
+        <td>Saturday</td>
+        <td>Sunday</td>
+    </tr>
+        <th>Months</th>
+        <tr>
+        <td>Jan</td>
+        <td>Feb</td>
+        <td>March</td>
+        <td>April</td>
+        <td>May</td>
+        <td>June</td>
+        <td>July</td>
+    </tr>
+    </table> -->
+<table>
+    <colgroup id="colg">
+    <col span="2">
+    <col id="colg2" span="1">
+    <col span="x">
+    <th id="sec1">Trainers</th>
+    <tr>
+        <th colspan="">FSD Trainer</th>
+        <th>FSD Trainer</th>
+        <th>PD Trainer</th>
+        <th>Aptitude Trainer</th>
+        <th>DS Trainer</th>
+        
+    </tr>
+    <tr>
+        <td>Aastha</td>
+        <td>Anita</td>
+        <td>Sangeeta</td>
+        <td>Balwinder</td>
+        <td>Somsirsa</td>
+    </tr>
+    <tr>
+        <td>Aastha</td>
+        <td>Anita</td>
+        <td>Sangeeta</td>
+        <td>Balwinder</td>
+        <td>Somsirsa</td>
+    </tr>
+    <tr>
+        <td>Aastha</td>
+        <td>Anita</td>
+        <td>Sangeeta</td>
+        <td>Balwinder</td>
+        <td>Somsirsa</td>
+    </tr>
+</colgroup>
+</table>
+</body>
+<style>
+    table{
+        width: 100%;
+    }
+    table, tr, td, th{
+        border: 3px solid;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 3px;
+    }
+   td:nth-child(odd){
+        background-color: blueviolet;
+    }
+    td:nth-child(even){
+        background-color: brown;
+    }
+    #colg{
+        background-color: aqua;
+    }
+    
+</style>
+</html>
+<!-- nth-child used to highlight the cells and data
+colspan combines the column
+rowspan combines the rows
+colgroup groups the columns and gives them a color -->
